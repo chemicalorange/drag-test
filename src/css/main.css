@@ -1,0 +1,22 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: rgb(218, 218, 218);
+}
+
+.block {
+  width: 80vw;
+  height: 80vh;
+  background: blueviolet;
+  position: relative;
+}
+
+.square {
+  width: 200px;
+  height: 200px;
+  background: white;
+  cursor: grab;
+  position: absolute;
+}
