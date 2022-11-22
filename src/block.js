@@ -3,7 +3,7 @@ function dragElement(e, relativeElement) {
   const element = e.target
 
   let pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
-    element.onmousedown = dragMouseDown;
+  element.onmousedown = dragMouseDown;
   
   function dragMouseDown(e) {
     e.preventDefault();
